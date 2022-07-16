@@ -1,0 +1,50 @@
+/* fontAweSome */
+/*
+    https://fontawesome.bootstrapcheatsheets.com/#
+    https://fontawesome.com/v4/icon/bars
+*/
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+/* xeicon */
+/*
+    https://xpressengine.github.io/XEIcon/started.html
+    https://xpressengine.github.io/XEIcon/library-2.3.3.html
+*/
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+
+/* 구글 폰트 */
+/* https://fonts.google.com/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 눈누 폰트 (이쁜 폰트가 많다) */
+https://noonnu.cc/
+
+
+
+/* 이미지 최적화 */
+https://pixabay.com/ko
+https://tinypng.com/
+
+/* jQuery */
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+/* css clip path 메이커 */
+https://bennettfeely.com/clippy/
+
+/* web gradients */
+https://webgradients.com
+이쁜 그라디언트가 만들어져있다.
+
+/*  */
+/*  */
+
+
+

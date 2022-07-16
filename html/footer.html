@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>Header</header>
+        
+        <!--
+        <section>Section #01</section>
+        <section>Section #02</section>
+        <section>Section #03</section>
+        <section>Section #04</section> -->
+        <footer>
+            <div class="footer-inner">
+                <!-- left -->
+                <div class="copyright">
+                    <div class="policy">
+                        <a href="#none">개인정보처리방침</a>
+                        <a href="#none">사이트맵</a>
+                    </div>
+                    <div class="info">
+                        <p>
+                            test info testetinfo (c) test <em> | </em>
+                            Email. test@gmail.com
+                        </p>
+                        <p>
+                            copyright (c) company. all rights reserved
+                        </p>
+                    </div>
+                </div>
+                <!-- right -->
+                <div class="family">
+                    <div class="footer-dropdown">
+                        <div class="title">Family Site</div>
+                        <ul class="sub-nav">
+                            <li>
+                                <a href="#none1">사이트1</a>
+                            </li>
+                            <li>
+                                <a href="#none2">사이트2</a>
+                            </li>
+                            <li>
+                                <a href="#none3">사이트3</a>
+                            </li>
+                            <li>
+                                <a href="#none4">사이트4</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+<script>
+    $('.title').click(function() {
+        // $('.sub-nav').toggleClass('active');
+        $('.sub-nav').slideToggle();
+        $('.title').toggleClass('active');
+    });
+    $('.sub-nav li').click(function() {
+        var txt = $(this).text();
+        
+        // $('.sub-nav').slideUp();
+        $(this).parent().slideUp();
+        $('.title').text(txt);
+    });
+</script>
